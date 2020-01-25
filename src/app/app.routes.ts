@@ -4,7 +4,7 @@ import {PageNotFoundComponent} from './pageNotFound/page-not-found/page-not-foun
 export const APP_ROUTES: Routes = [
   {
     path:'',
-    redirectTo:'/cliente/buscador',
+    redirectTo:'app/cliente/buscador',
     pathMatch:'full',
   },
   { 
