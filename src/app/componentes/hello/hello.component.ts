@@ -1,7 +1,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'hello',
+  selector: 'app-hello',
   template: `<h1>Hello {{name}}!</h1><button (click)="hazHalgo()">Púlsame</button>`,
   styles: [`h1 { font-family: Lato; }`]
 })
