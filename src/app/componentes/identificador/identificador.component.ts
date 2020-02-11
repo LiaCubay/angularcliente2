@@ -18,7 +18,7 @@ export class IdentificadorComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.label = 'Identificador';
+    this.label = 'IDENTIFICADOR';
     this.items = [
       {label: 'Orquideas', value: 'orquidea'},
       {label: 'Ortencias', value: 'ortencia'},
